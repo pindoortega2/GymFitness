@@ -62,6 +62,12 @@
 
     </main>
 
+    <section class="contenedor section">
+        <h2 class="text-center text-primary">Todos nuestros profesionales</h2>
+        <p class="text-center"> Instructores Profesionales que te ayudaran a lograr tus objetivos</p>
+        <?php listar_profesionales() ?>
+    </section>
+
 
 <?php get_footer() ?>
 
