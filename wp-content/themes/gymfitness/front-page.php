@@ -7,7 +7,7 @@
         <p><?php the_field('texto_bienvenida') ?></p>
     </section>
 
-    <section class="area">
+    <section class="areas">
 
         <div class="area">
             <?php
