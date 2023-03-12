@@ -7,7 +7,7 @@
         <p><?php the_field('texto_bienvenida') ?></p>
     </section>
 
-    <section class="areas">
+    <section class="area"> hola este es el cambio de error
 
         <div class="area">
             <?php
