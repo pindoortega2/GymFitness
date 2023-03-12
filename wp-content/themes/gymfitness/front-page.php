@@ -68,6 +68,8 @@
         <?php listar_profesionales() ?>
     </section>
 
+    <!--Este codigo es de ejemplo no tomar en cuenta-->
+
 
 <?php get_footer() ?>
 
