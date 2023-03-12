@@ -52,7 +52,14 @@
     </section>
 
     <main class="contenedor seccion">
-            
+           <h2 class="text-center text-primary">Nuestras Clases</h2> 
+
+           <?php listar_clases_gym(4) ?>
+
+           <div class="contenedor-boton"> <!-- esc_url da una seguridad de escape para la url (get_permalink permite ingresar el link de alguna direccion) (get_page_by_title -> permite colocar el nombre de una página )-->
+                <a class="boton boton-primario" href="<?php echo esc_url(get_permalink(get_page_by_title('Nuestras Clases'))); ?>">Ver Todas las Clases</a>
+           </div>
+
     </main>
 
 

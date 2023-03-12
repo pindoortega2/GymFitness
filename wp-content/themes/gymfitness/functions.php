@@ -2,6 +2,7 @@
 
     // Includes
     require get_template_directory() . '/includes/widgets.php';
+    require get_template_directory() . '/includes/querys.php';
 
 
     //Esta funcion es para crear el menu y añadir la ubicacion del menu por ejemplo este es el menu principal se puede crear tambien el menu del pie de pagina etc
